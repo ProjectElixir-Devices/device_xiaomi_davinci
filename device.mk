@@ -345,6 +345,7 @@ PRODUCT_PACKAGES += \
     ApertureOverlay \
     CarrierConfigOverlay \
     DavinciSettingsProviderOverlay \
+    FaceUnlockServiceOverlay \
     FrameworksResDavinci \
     SettingsResDavinci \
     SystemUIResDavinci \
