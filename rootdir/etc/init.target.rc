@@ -98,7 +98,7 @@ on post-fs-data
     mkdir /data/vendor/fpdump 0770 system system
 
 on boot
-    start rmt_storage
+    start vendor.rmt_storage
     start rfs_access
 
     # Set thermal mode to evaluation
