@@ -30,3 +30,6 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+# WiFi Display
+media.wfd.max_resolution=5
