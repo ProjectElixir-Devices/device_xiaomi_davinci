@@ -10,6 +10,9 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/davinci
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
 
