@@ -202,11 +202,6 @@ SOONG_CONFIG_davinciVars += \
 SOONG_CONFIG_davinciVars_livedisplay_support_anti_flicker ?= false
 SOONG_CONFIG_davinciVars_livedisplay_support_sunlight_enhancement ?= true
 
-# Trust
-TARGET_TRUST_USB_CONTROL_PATH := /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
-TARGET_TRUST_USB_CONTROL_ENABLE := 0
-TARGET_TRUST_USB_CONTROL_DISABLE := 1
-
 # Udfps
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
