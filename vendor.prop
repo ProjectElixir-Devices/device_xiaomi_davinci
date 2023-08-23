@@ -15,6 +15,7 @@ persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.spv3.enable=true
 ro.af.client_heap_size_kbyte=7168
 ro.config.vc_call_vol_steps=11
+ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.adm.buffering.ms=6
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
@@ -22,6 +23,7 @@ vendor.audio.feature.anc_headset.enable=true
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.battery_listener.enable=false
 vendor.audio.feature.compr_cap.enable=false
+vendor.audio.feature.compr_voip.enable=false
 vendor.audio.feature.compress_in.enable=false
 vendor.audio.feature.compress_meta_data.enable=true
 vendor.audio.feature.concurrent_capture.enable=false
@@ -77,6 +79,7 @@ vendor.audio.usb.disable.sidetone=true
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
+vendor.voice.path.for.pcm.voip=false
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
@@ -181,6 +184,12 @@ persist.sys.sf.color_mode=9
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# HVDCP
+persist.vendor.cp.taper_term_mv=6500
+persist.vendor.qg_cld_coff_gain=1.5
+persist.vendor.qg_coff_gain=1
+persist.vendor.qg_cold_temp=-150
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
@@ -226,3 +235,8 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+
+# ZRAM writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
