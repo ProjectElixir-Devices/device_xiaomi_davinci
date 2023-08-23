@@ -123,7 +123,6 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # FRP
 /dev/block/platform/soc/1d84000.ufshc/by-name/frp       0600   system     system
-/dev/block/platform/soc/7c4000.sdhci/by-name/frp        0600   system     system
 
 # Kmsg device
 /dev/kmsg                 0620   root       system
@@ -171,11 +170,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/kgsl/kgsl-3d0    perfcounter              0660    root    shell
 
 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp power/control 0664 system graphics
-
-# IR spi node
-/dev/ir_spi               0660   system     system
-/dev/spidev0.0            0660   system     audio
-/dev/spidev0.1            0660   system     system
 
 # Fingerprint
 /dev/goodix_fp            0660   system     system
