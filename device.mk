@@ -132,9 +132,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor \
     XiaomiPopupCamera
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/vendor.xiaomi.hardware.motor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.motor@1.0-service.rc
-
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
@@ -242,7 +239,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom_ramdisk \
     fstab.qcom \
-    init.davinci.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
