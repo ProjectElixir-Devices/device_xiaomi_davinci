@@ -72,13 +72,6 @@ PRODUCT_PACKAGES += \
     audio.primary.sm6150 \
     audio_amplifier.sm6150
 
-PRODUCT_PACKAGES += \
-    liba2dpoffload \
-    libhdmiedid \
-    libhfp \
-    libsndmonitor \
-    libspkrprot
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/configs/audio/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \

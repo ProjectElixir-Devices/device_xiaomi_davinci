@@ -78,11 +78,34 @@ system_ext/framework/audiosphere.jar|cfe651014a70739e4a2a41dc746fa8111f092bde
 
 # Audio FX modules - from sweet V14.0.9.0.TKFMIXM
 vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 
-# Audio libraries - from davinci V12.5.2.0.RFJCNXM
+# Audio hardware - from davinci V12.5.2.0.RFJCNXM
+vendor/lib/hw/audio.primary.sm6150.so|4e1535742f5b07c098ade6b12c311115d63c5f1e
 vendor/lib/libadm.so|c5d8693dbec640d3366ad7620833b2e4387f3c01
+vendor/lib/libaudio_log_utils.so|71ec4d31ad6c9e9a4bee8db7b5ab55b70ef7c4c3
+vendor/lib/libaudioconfigstore.so|a00b695d8ec2666bdce729e0f947149c3b78b2b5
+vendor/lib/libaudioparsers.so|b786d5a2a8f94edb11b5334bbe981dbd2633325f
+vendor/lib/libaudioroute_ext.so|b1690267067d4e03255df8553f4b8f1f39eda9dc
+vendor/lib/vndk/libxlog.so|bdb3d8d8b37bd4e1e84f59d912457690e7388f2e
+
+# Audio libraries - from davinci V12.5.2.0.RFJCNXM
+vendor/lib/liba2dpoffload.so|85bff18506899c7c6e95ce141ce3006c73186cc1
+vendor/lib/libbatterylistener.so|6670e1f05fda4ee552f8563f39e3cf59a3befca6
+vendor/lib/libcomprcapture.so|e72ea8e486b9044baf54afd3e0cc1c665e65851d
+vendor/lib/libdrc.so|e27974e53efe0456cba96f6910ad977c6351d0b7
+vendor/lib/libexthwplugin.so|0307599dfc5b28278562883442ab94f793b133ab
+vendor/lib/libhdmiedid.so|517389cd828c7d4a87e14565afa5867bbb28fffb
+vendor/lib/libhdmipassthru.so|adc8690952cacf8eb2c141a9b977cfd5ba5f19ea
+vendor/lib/libhfp.so|a239df0f49cca3989670e5acb3e9a156de0379e6
 vendor/lib/libqtigef.so|5274b67a13e3211cc581385189560fd1e2572d44
+vendor/lib/libsndmonitor.so|4e407aa0810566ae7486fc359f744fbe14716f12
+vendor/lib/libssrec.so|aa790d85040349bc477ca5056c650ce970409c6e
+vendor/lib/libsurround_3mic_proc.so|1d425b4b0d89f68e0f0112e8f2f73b1cd5b6dea2
 
 # Bluetooth - from sweet V14.0.9.0.TKFMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -709,6 +732,14 @@ vendor/lib64/libqtikeymaster4.so
 
 # Listen - from sweet V14.0.9.0.TKFMIXM
 vendor/lib/libadpcmdec.so
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2vop.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libgcs.so
+vendor/lib/liblistensoundmodel2.so
+vendor/lib/libmulawdec.so
 vendor/lib/librice.so
 vendor/lib/libsmwrapper.so
 
