@@ -69,6 +69,25 @@ vendor/lib/libacdbrtac.so|a618bad18309032d19ab5d5e992043d05a7fbb8c
 vendor/lib/libadiertac.so|4fbcedc4e3258487e49e912838470f39c5e4e25a
 vendor/lib/libaudcal.so|827fbc6fb4cfd96de86c692ebcafe3ed8660249b
 
+# Audio configs - from sweet V14.0.9.0.TKFMIXM
+vendor/etc/audio_tuning_mixer.txt
+vendor/etc/audio_tuning_mixer_tavil.txt
+vendor/etc/graphite_ipc_platform_info.xml
+
+# Audio configs  - from davinci V12.5.2.0.RFJCNXM
+vendor/etc/audio_platform_info.xml|379f75d44ef393e9eec2b9da95e1d4a04132b6bf
+vendor/etc/mixer_paths_idp.xml|2e8cadf6990f28c49d95e6a3592f59d0d7ce7876
+vendor/etc/mixer_paths_overlay_dynamic.xml|ec60346cdab96b56eb2a119cdb3967d81953048e
+vendor/etc/mixer_paths_overlay_static.xml|4cecf3ad67a85398987a415719ca07a391a1f9f8
+vendor/etc/mixer_paths_qrd.xml|c1f0e66701b0208f79d8856affa097d37e2dc30f
+vendor/etc/mixer_paths_tavil.xml|2c7673ab982c116009c936c2bb69d764b8cf0ec6
+vendor/etc/mixer_paths_wcd9375.xml|33cac3d550675529553df58b9c882968ff7aa02a
+vendor/etc/mixer_paths_wcd9375qrd.xml|146a0c0c07bffc2c5a46aaff127ce4c39cd80024
+vendor/etc/sound_trigger_mixer_paths.xml|1ae7dda277ff05001b37d3e75b0ed3b56e0bc188
+vendor/etc/sound_trigger_mixer_paths_qrd.xml|68e262e165165813a9c61589c701a5430534753c
+vendor/etc/sound_trigger_mixer_paths_wcd9340.xml|2ae5d4ed400b403ec8cb3fa78eccdc06c15d9640
+vendor/etc/sound_trigger_platform_info.xml|43f052e74d233d9aaa2b8f9eb270e5d702d49c10
+
 # Audio firmware - from davinci V12.5.2.0.RFJCNXM
 vendor/firmware/tfa98xx.cnt|90ff4ddd45cd4eb82dc53ecff0e7309db9b062a7
 
