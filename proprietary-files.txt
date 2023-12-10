@@ -738,6 +738,16 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 
+# Media configs - from sweet V14.0.9.0.TKFMIXM
+odm/etc/media_profiles_V1_0.xml
+vendor/etc/media_codecs.xml
+vendor/etc/media_codecs_c2.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_codecs_vendor.xml
+vendor/etc/media_codecs_vendor_audio.xml
+vendor/etc/media_profiles.xml
+vendor/etc/media_profiles_vendor.xml
+
 # Media (OMX) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/lib/libOmxAacDec.so|ce4efb1349b5989eb74bd54f82e8f74974df814b
 vendor/lib/libOmxAlacDec.so|342573d77212cf263c5f9df7a6af48f4f8803197
