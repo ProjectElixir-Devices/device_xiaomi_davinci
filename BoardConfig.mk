@@ -92,7 +92,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
-TARGET_KERNEL_CONFIG := vendor/sdmsteppe-perf_defconfig vendor/davinci.config
+TARGET_KERNEL_CONFIG := davinci_defconfig
 TARGET_KERNEL_CLANG_VERSION := r498229b
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/r498229b
 KERNEL_SUPPORTS_LLVM_TOOLS := true
