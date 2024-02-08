@@ -27,3 +27,7 @@ git clone --depth=1 -b lineage-21.0 https://github.com/LineageOS/android_hardwar
 # Hardware Xiaomi
 rm -rf hardware/xiaomi
 git clone https://github.com/Project-Elixir/hardware_xiaomi hardware/xiaomi
+
+# Vibrator
+rm -rf vendor/qcom/opensource/vibrator
+git clone --depth=1 https://github.com/PixelExperience/vendor_qcom_opensource_vibrator vendor/qcom/opensource/vibrator
